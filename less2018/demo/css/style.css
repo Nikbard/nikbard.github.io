@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700&subset=cyrillic');
+/*     font-family: 'Rubik', sans-serif; 400 500 700*/
+
+body {
+    background-color: #000 !important; 
+}
+header{
+    padding-top: 30px;
+}
+header .logo{
+    background: url('../img/logo.png') no-repeat;
+    height:91px;
+    width:109px;
+}
+header .contact{
+    padding-top: 20px;
+    color: #fff;
+}
+header .contact p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+main{
+    margin-top: 165px;
+}
+main h1{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+main h1 span{
+    color: #f0e538;
+}
+main p{
+    font-family: 'Rubik', sans-serif; 
+    font-size: 30px;
+    margin-top: 35px;
+    color: #fff;
+}
+
+main a{
+    width: 470px;
+    height: 90px;
+    font-family: 'Rubik', sans-serif; 
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    background-color: #f0e538;
+    border: none;
+    margin-top: 35px;
+    display: block;
+    color: #000;
+    text-align: center;
+    line-height: 90px;
+}
+main a:hover{
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+}
+main a:active{
+    margin-top: 34px;
+    margin-bottom: 1px;
+}
+footer{
+    margin-top: 125px;
+    position: relative;
+    z-index: 1;
+}
+footer a{
+    color: #fff;
+    font-family: 'Rubik', sans-serif; 
+}
+footer p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    color: #fff;
+    margin-top: 40px;
+}
+#video-bg{
+    position: fixed;
+    height: 100vh;
+    z-index: 0;
+    opacity: 0.3;
+}
+
+
+
+.link {color:#fff; text-decoration:none}
+.link:hover {color:#fff; text-decoration:underline}  
+#mask-2 {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+    display: none;
+    width: 100%;
+    height: 100%;
+    }
+#boxes .window {
+    position:absolute;
+    left:0;
+    top:0px;
+    -top: 40px;
+    width:440px;
+    height:200px;
+    display:none;
+    z-index:9999;
+    padding: 20px;
+    overflow: hidden;
+    }  
+#boxes #dialog {
+    width:725px; 
+    height:520px;
+    padding:50px 70px;
+    border-radius: 10px;
+    background-color:#363636;
+    }  
+.close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: #fff !important;
+    font-weight: 400 !important;
+    }
+#boxes ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+#boxes ul li {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-color: #e9e9e9;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 10px;
+    color: #b9b9b9;
+    font-family: 'Rubik', sans-serif; 
+    font-weight: bold;
+}
+#boxes .top {
+    width: 585px;
+    height: 175px;
+    background-color: #c8c8c8;
+    border-radius: 10px;
+}
+#boxes h1 {
+    background-color: #fff;
+    border-radius: 10px;
+    line-height: 105px;
+    text-align: center;
+    width: 585px;
+    height: 105px;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif; 
+    box-shadow: 0 -6px 40px;
+}
+#boxes .dots {
+    margin-top: 15px;
+    color: #e9e9e9;
+    letter-spacing: 7px;
+    margin-left: 6px;
+}
+#boxes ul .active {
+    color: #000;
+    background-color: #f0e538;
+}
+#boxes form #form-1 div{
+    max-width: 135px;
+    height: 105px;
+    background-color: #bababa;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#boxes form #form-2 div,
+#boxes form #form-3 div,
+#boxes form #form-4 div{
+    max-width: 285px;
+    height: 90px;
+    background-color: #bababa;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.checkbox {
+	display: none;
+}
+
+.checkbox-custom {
+	position: relative;
+	width: 30px;            
+	height: 30px;          
+	border: 1px solid #ccc;
+	border-radius: 50%;
+    top: 60px;
+    left: 40px;
+    background: #fff;
+    box-shadow: 0 0 25px -5px;
+}
+#form-2 .checkbox-custom,
+#form-3 .checkbox-custom,
+#form-4 .checkbox-custom{
+    left: 0px;
+    top: 33px;
+}
+.checkbox-custom,
+.label {
+	display: inline-block;
+}
+.label {
+    display: block;
+    width: 135px;
+    margin-top: -36px;
+    margin-left: -15px;
+    text-align: center;
+    padding: 15px 5px;
+    border-radius: 10px;
+    height: 105px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+#form-2 .label,
+#form-3 .label,
+#form-4 .label{
+    width: 285px;
+    height: 90px;
+    padding-top: 35px;
+    margin-top: -35px;
+}
+#form-3 div:nth-child(2) .label{
+    padding-left: 50px;
+}
+.checkbox:checked + .checkbox-custom::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	bottom: 5px;
+	left: 5px;
+	background: #f0e538; 
+	border-radius: 50%;
+}
+.checkbox:checked ~ .label{
+    background-color: #fff;
+}
+#button-1,
+#button-2,
+#button-3,
+#button-4{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    color: #fff;
+}
+ 
+#boxes #form-2,
+#boxes #form-3,
+#boxes #form-4,
+#boxes #form-5
+{
+    display: none;
+}
+
+#form-5{
+    flex-direction: column;
+}
+#form-5 div{
+    margin: 0 auto;
+}
+#form-5 div:first-child{
+    margin-top: 25px;
+}
+#form-5 input{
+    width: 440px;
+    height: 65px;
+    color: #000;
+    display: block;
+    background-color: #bababa;
+    border-radius: 10px;
+    margin: 0 auto;
+    border: none;
+    font-family: 'Rubik', sans-serif; 
+    font-size: 22px;
+    padding: 0 20px;
+    font-weight: 500;
+}
+#form-5 input:focus{
+    outline: none;
+}
+#form-5>input{
+    border-radius: 0;   
+    background-color: #f0e538; 
+    text-align: center;
+}
+#form-5>input:active{
+    margin-top: 1px;
+}
+#form-5>input:hover{
+    background-color: #fff;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin-left: 10px !important;
+    }
+    header {
+        padding-top: 10px;
+    }
+    main {
+        margin-top: 0;
+    }
+    footer {
+        margin-top: 100px;
+    }
+    #boxes #dialog {
+        width: 91%;
+        left: 5% !important;
+        height: auto;
+        top: 1% !important;
+            overflow-y: auto;
+    }
+    .dots{
+        display: none;
+    }
+    #boxes .top {
+        width: 100%;
+    }
+    #boxes h1{
+        width: 100%;
+    }
+    #boxes form #form-1 div {
+        max-width: 46%;
+        margin-left: 3%;
+        padding-left: 8%;
+    }
+    .checkbox:checked ~ .label {
+        background-color: transparent;
+    }
+    .label{
+        margin-left: 5px;
+        height: 100%;
+    }
+    .checkbox-custom {
+        left: 58px;
+    }
+    #boxes form #form-2 div, #boxes form #form-3 div, #boxes form #form-4 div {
+        max-width: 93%;
+    }
+    #form-2 .label, #form-3 .label, #form-4 .label {
+        width: 100%;
+        margin-left: 50px;
+        margin-top: -36px;
+    }
+    #boxes h1 {
+        font-size: 15px !important;
+    }
+    #form-3 div:nth-child(2) .label {
+    padding-left: 0;
+    }
+    #form-5 input {
+    width: 100%;
+    }
+    main a {
+    width: 100%;
+    }
+}
+@media screen and (max-width: 480px){
+    #boxes form #form-1 div {
+        max-width: 91%;
+    }
+    .checkbox-custom {
+        left: 5px;
+        top: 43px;
+    }
+    .label {
+        margin-left: 40px;
+        margin-top: -4px;
+        text-align: left;
+    }
+    #boxes h1 {
+    font-size: 12px !important;
+    }
+    #form-2 .label, #form-3 .label, #form-4 .label {
+    margin-left: 35px;
+    margin-top: -33px;
+    }
+}

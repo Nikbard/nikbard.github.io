@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="keywords" content="кальяны, смола, smoland lounge, hookah, hookah lounge, покур, смоланд, москва" />
+<meta name="description" content="Стильная кальянная-лаунж Smoland Lounge на Новослободской улице для ценителей хороших табаков и тихой атмосферы. Для вас обширная чайная карта, лимонады со свежими фруктами, свежие сендвичи и, конечно же, ароматные дымные кальяны от мастеров своего дела."/>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="slider/style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<title>Smoland Lounge - Самые дымные кальяны</title>
+</head>
+<body>
+<div class="wrapper">
+   
+    <div class="content">
+        <nav>
+            <ul>
+                <li><a href="#" class="hover" onclick="menuOpenFunc()">меню</a></li>
+                <li><a href="#" class="hover" onclick="hookahOpenFunc()">наши кальяны</a></li>
+                <li><a href="#" class="hover" onclick="oNasOpenFunc()">о нас</a></li>
+                <li><a href="#" class="hover" onclick="galleryOpenFunc()">галерея</a></li>
+                <li><a href="#" class="hover" onclick="contactOpenFunc()">контакты</a></li>
+            </ul>
+        </nav>  
+        <header class="header">
+            <h1 class="smoland">Smoland Lounge</h1>
+        </header>
+        
+        
+    </div>
+    <div id="map" style="display: none;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2243.3027342728356!2d37.59130931621829!3d55.787980980562764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bf9a25dcdaf%3A0x8eb255f479747f4a!2sSMOLAND+Hookah+Lounge!5e0!3m2!1sru!2sru!4v1541502232861" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div id="menu" style="display: none;">
+        <h2>Меню</h2>
+        <div class="grid">
+           <article class="action">
+                <h3>АКЦИИ</h3>
+                <p>- C понедельника по пятницу с 13:00 - 17:00 кальян студентам за 500 рублей<br><i>на чаше adalya, D Gastro, afzal, Serbetli, Al Fakher</i></p>
+                <p>- Грейпфрутовый взрыв: Кальян на грейпфруте + чай за 1600 рублей</p>
+                <p>- Каждый день акция 1+1: два кальяна 1500 рублей<br><i>на чаше adalya, D Gastro, afzal, Serbetli, Al Fakher</i></p>
+                <p>- Отметь День рождения у нас и получи СКИДКУ 20% на чек.</p>
+                <p>- Студентам скидка 10%<br><i>при наличии студенческого</i></p>
+            </article>
+            <article>
+                <h3>Кальянная карта</h3>
+                <p>Классический<br> <i>Тут можно короткое описание</i></p>
+                <span>900&nbsp;рублей</span>
+                <p>WTO<br> <i>Из чего: вода, табак, фрукты, апельсин, дикая мята </i></p>
+                <span>1200&nbsp;рублей</span>
+                <p>"Смоланд" фирменный микс<br> <i>Из чего: вода, табак, фрукты, апельсин, дикая мята</i></p>
+                <span>1100&nbsp;рублей</span>
+                <p>Кальян на Яблоке<br> <i>Из чего: вода, табак, фрукты, апельсин, дикая мята</i></p>
+                <span>1300&nbsp;рублей</span>
+                <p>Кальян на Грейпфруте<br> <i>Из чего: вода, табак, фрукты, апельсин, дикая мята</i></p>
+                <span>1400&nbsp;рублей</span>
+                <p>Кальян на Гранате<br> <i>Из чего: вода, табак, фрукты, апельсин, дикая мята</i></p>
+                <span>1600&nbsp;рублей</span>
+                <p>Кальян на Ананасе<br> <i>Из чего: вода, табак, фрукты, апельсин, дикая мята</i></p>
+                <span>2000&nbsp;рублей</span>
+                <p>Колба с Водой<br> <i></i></p>
+                <span>0&nbsp;рублей</span>
+                <p>Колба с Соком<br> <i></i></p>
+                <span>+150&nbsp;рублей</span>
+                <p>Колба с Молоком<br> <i></i></p>
+                <span>+150&nbsp;рублей</span> 
+                <p>Колба с Фруктовым чаем<br> <i></i></p>
+                <span>+250&nbsp;рублей</span>  
+                <p>Колба со Смузи<br> <i></i></p>
+                <span>+400&nbsp;рублей</span> 
+                <p>Колба с Вином<br> <i></i></p>
+                <span>+400&nbsp;рублей</span>
+                <p>Перезабивка чаши<br> <i>кроме WTO, tangiers</i></p>
+                <span>600&nbsp;рублей</span> 
+            </article>
+            <article>
+                <h3>Черный чай</h3>
+                <p>Ассам</p>
+                <span>250&nbsp;рублей</span>
+                <p>Эрл Грей</p>
+                <span>300&nbsp;рублей</span>
+                <p>Чай с чабрецом</p>
+                <span>300&nbsp;рублей</span>
+                <p>Чай с лавандой</p>
+                <span>300&nbsp;рублей</span>
+                <p>Чай с мятой</p>
+                <span>300&nbsp;рублей</span>
+                <p>Чай "Дикая вишня"</p>
+                <span>300&nbsp;рублей</span>
+            </article>
+            <article>
+                <h3>Зеленый чай</h3>
+                <p>Улун<br><i>молочный, персиковый, ягодный, "Бейлис"</i></p>
+                <span>300&nbsp;рублей</span>
+                <p>Чай с жасмином</p>
+                <span>300&nbsp;рублей</span>
+                <p>Чай "Малина-мята"</p>
+                <span>300&nbsp;рублей</span>
+                <p>Сенча</p>
+                <span>300&nbsp;рублей</span>
+                <p>МАО ФЕН</p>
+                <span>300&nbsp;рублей</span>
+                <p>Зеленый Юннань</p>
+                <span>300&nbsp;рублей</span>
+                <p>Золотой Дянь Хун</p>
+                <span>300&nbsp;рублей</span>
+                <p>Гандапаудер</p>
+                <span>400&nbsp;рублей</span>
+                <p>Букет Императора Кокос</p>
+                <span>500&nbsp;рублей</span>
+                <p>Корзина Будды<br><i>Апельсин и персик</i></p>
+                <span>500&nbsp;рублей</span>
+                <p>Лунный сад Жасмин</p>
+                <span>500&nbsp;рублей</span>
+            </article>
+            <article>
+                <h3>ПУЭР</h3>
+                <p>Дворцовый пуэр 5 лет</p>
+                <span>400&nbsp;рублей</span>
+                <p>Дворцовый пуэр 10 лет</p>
+                <span>600&nbsp;рублей</span>
+                <p>Пуэр Малиновый</p>
+                <span>380&nbsp;рублей</span>
+                <p>Пуэр Юбант Тоу Ча с лавандой</p>
+                <span>500&nbsp;рублей</span>
+                <p>Пуэр Юбант Тоу Ча с розой</p>
+                <span>500&nbsp;рублей</span>
+                <p>+сифон</p>
+                <span>+300&nbsp;рублей</span>
+            </article>
+            <article>
+                <h3>НЕЧАЙНЫНЫЙЧАЙ</h3>
+                <p>Чай SMOLAND<br><i>со свежими ягодами и мёдом</i></p>
+                <span>500&nbsp;рублей</span>
+                <p>Наглый фрукт</p>
+                <span>350&nbsp;рублей</span>
+                <p>Фруктовый чай "Каркаде-Манго"</p>
+                <span>350&nbsp;рублей</span>
+                <p>Фруктовый чай "Клубника-Киви"</p>
+                <span>350&nbsp;рублей</span>
+                <p>Фруктовый чай "Клюквенный морс"</p>
+                <span>380&nbsp;рублей</span>
+                <p>Ройбос Малина</p>
+                <span>400&nbsp;рублей</span>
+                <p>Горячий настой из шиповника с медом</p>
+                <span>350&nbsp;рублей</span>
+                <p>Марокканский чай<br><i>с имбирём и лаймом</i></p>
+                <span>400&nbsp;рублей</span>
+                <p>Облепиховый чай</p>
+                <span>350&nbsp;рублей</span>
+                <p>Имбирный чай<br><i>Апельсин и персик</i></p>
+                <span>350&nbsp;рублей</span>
+                <p>Чайный микс</p>
+                <span>400&nbsp;рублей</span>
+            </article>
+            <article>
+                <h3>Кофе</h3>
+                <p>Эспрессо</p>
+                <span>150&nbsp;рублей</span>
+                <p>Двойной эспрессо</p>
+                <span>200&nbsp;рублей</span>
+                <p>Американо</p>
+                <span>150&nbsp;рублей</span>
+                <p>Капучино</p>
+                <span>200&nbsp;рублей</span>
+                <p>Латте</p>
+                <span>250&nbsp;рублей</span>
+                <p>Ванильный Раф</p>
+                <span>200&nbsp;рублей</span>
+            </article>
+            <article>
+                <h3>Холодные напитки</h3>
+                <p>Вода с газом/без газа</p>
+                <span>100&nbsp;рублей</span>
+                <p>Coca-Cola, Coca-Cola ZERO, Fants, Sprite</p>
+                <span>100&nbsp;рублей</span>
+                <p>Coca-Cola VANILLA, DR. Pepper, Vanilla Flight, Sprite-Fanta фрукты-ягоды</p>
+                <span>130&nbsp;рублей</span>
+                <p>Red Bull</p> 
+                <span>200&nbsp;рублей</span>
+                <p>Сок<br><i>апельсиновый, яблочный, манго, виноградный, вишневый</i></p>
+                <span>100&nbsp;рублей</span>
+                <p>Фреш</p>
+                <span>от 250&nbsp;рублей</span>
+                <p>Лимонад 250мл<br><i>ягодный, цитрусовый, малина-маракуйа, тархун</i></p>
+                <span>250&nbsp;рублей</span>
+                <p>Лимонад 1000мл<br><i>ягодный, цитрусовый, малина-маракуйа, тархун</i></p>
+                <span>500&nbsp;рублей</span>
+                <p>Милкшейк</p> 
+                <span>300&nbsp;рублей</span>
+                <p>Мохито б/а<br><i>классический, клубничный</i></p> 
+                <span>350&nbsp;рублей</span>
+                <p>Коктейль в ассортименте</p> 
+                <span>350&nbsp;рублей</span>
+            </article>
+            <article>
+                <h3>Пиво</h3>
+                <p>Пиво светлое/темное</p>
+                <span>250&nbsp;рублей</span>
+                <p>Double Chocolate Stout</p>
+                <span>300&nbsp;рублей</span>
+                <p>Разливное крафтовое светлое</p>
+                <span>250&nbsp;рублей</span>
+                <p>Сидр<br><i>яблочный, ягодный, вишневый, грушевый</i></p>
+                <span>200&nbsp;рублей</span>
+            </article>
+            <article>
+                <h3>Снеки</h3>
+                <p>Сэндвич в ассортименте</p>
+                <span>260&nbsp;рублей</span>
+                <p>Арахис</p>
+                <span>200&nbsp;рублей</span>
+                <p>Фисташки</p>
+                <span>300&nbsp;рублей</span>
+                <p>Шоколад "RITTER SPORT"</p>
+                <span>180&nbsp;рублей</span>
+                <p>Шоколад "SNIKERS", "NUTS"</p>
+                <span>100&nbsp;рублей</span>
+                <p>Арахис в кокосовом сиропе</p>
+                <span>250&nbsp;рублей</span>
+                <p>Печенье "OREO"</p>
+                <span>150&nbsp;рублей</span>
+                <p>Фруктовая нарезка</p>
+                <span>300&nbsp;рублей</span>
+            </article>
+            <article class="action">
+                <h3>ПРАВИЛА ЗАВЕДЕНИЯ</h3>
+                <p>Оплата принимается в наличной и безналичной форме.</p>
+                <p>Нахождение в кальянном баре допускается лицам старше 18 лет<br><i>наличие документа удостоверяющего личность</i></p>
+                <p>Курение кальяна составляет максимум 1,5 часа<br><i>в целях заботы о вашем здоровье</i></p>
+                <p>На компанию от 5 человек действует депозитная система: 500 рублей с гостя</p>
+                <p>За пронос спиртных напитков действует система пробкового сбора 200 руб/литр, 400 рублей - крепкий алкоголь</p>
+                <p>Посетитель клуба несет материальную ответственность за утерю или порчу оборудования, инвентаря и другого имущества заведения.</p>
+            </article>
+        </div>
+    </div>
+    
+    <div id="hookah" style="display: none;">
+    
+        <h2>Кальяны Smoland Lounge</h2>
+           <article>
+                <h3>Кальян 1</h3>
+                <figure>
+                    <img class="left" src="img/hookah-1.jpg" alt="hookah">
+                    <figcaption class="right">
+                    Эстетически безупречный, стильный и изящный аппарат, являющийся воплощением самых смелых и ярких идей. Колба кальяна выполнена в форме колокола, в сочетании красного и оранжевого цветов, причём цветные разводы и рисунки уникальны - нельзя встреть два абсолютно одинаковых «amy deluxe 043». Также стоит отметить ещё одну деталь - на дне колбы имеется специально отведённое место под светодиодную ленту, к данной модели подойдёт круглая подсветка от «amy», «kaya», «temple».
+                    </figcaption>
+                </figure>
+            </article>
+            <article>
+                <h3>Табак такой-то</h3>
+                <figure>
+                    <img class="right" src="img/tabak-1.jpg" alt="hookah">
+                    <figcaption class="left">
+                    Эстетически безупречный, стильный и изящный аппарат, являющийся воплощением самых смелых и ярких идей. Колба кальяна выполнена в форме колокола, в сочетании красного и оранжевого цветов, причём цветные разводы и рисунки уникальны - нельзя встреть два абсолютно одинаковых «amy deluxe 043». Также стоит отметить ещё одну деталь - на дне колбы имеется специально отведённое место под светодиодную ленту, к данной модели подойдёт круглая подсветка от «amy», «kaya», «temple».
+                    </figcaption>
+                </figure>
+            </article>
+            <article>
+                <h3>Кальян 1</h3>
+                <figure>
+                    <img class="left" src="img/hookah-1.jpg" alt="hookah">
+                    <figcaption class="right">
+                    Эстетически безупречный, стильный и изящный аппарат, являющийся воплощением самых смелых и ярких идей. Колба кальяна выполнена в форме колокола, в сочетании красного и оранжевого цветов, причём цветные разводы и рисунки уникальны - нельзя встреть два абсолютно одинаковых «amy deluxe 043». Также стоит отметить ещё одну деталь - на дне колбы имеется специально отведённое место под светодиодную ленту, к данной модели подойдёт круглая подсветка от «amy», «kaya», «temple».
+                    </figcaption>
+                </figure>
+            </article>
+            <article>
+                <h3>Табак такой-то</h3>
+                <figure>
+                    <img class="right" src="img/tabak-1.jpg" alt="hookah">
+                    <figcaption class="left">
+                    Эстетически безупречный, стильный и изящный аппарат, являющийся воплощением самых смелых и ярких идей. Колба кальяна выполнена в форме колокола, в сочетании красного и оранжевого цветов, причём цветные разводы и рисунки уникальны - нельзя встреть два абсолютно одинаковых «amy deluxe 043». Также стоит отметить ещё одну деталь - на дне колбы имеется специально отведённое место под светодиодную ленту, к данной модели подойдёт круглая подсветка от «amy», «kaya», «temple».
+                    </figcaption>
+                </figure>
+            </article>
+    </div>
+    
+    <div id="gallery" style="display: none;">
+            <ul id="slides">
+                <li class="slide showing"></li>
+                <li class="slide"></li>
+                <li class="slide"></li>
+                <li class="slide"></li>
+                <li class="slide"></li>
+            </ul>
+    </div>
+    
+    <div id="o-nas" style="display: none;">
+       <h2>Hookah Lounge</h2>
+        <div class="grid">
+           <div>
+                <video width="100%" height="100%" controls="controls" poster="img/back-video.jpg">
+                   <source src="img/back-video.ogv" type='video/ogg'>
+                   <source src="img/back-video.mp4" type='video/mp4'>
+                   <source src="img/back-video.webm" type='video/webm'>
+                   Тег video не поддерживается вашим браузером. 
+                   <a href="video/duel.mp4">Скачайте видео</a>.
+                </video>
+            </div>
+            <p>Стильная кальянная-лаунж на Новослободской улице для ценителей хороших табаков и тихой атмосферы. Для вас обширная чайная карта, лимонады со свежими фруктами, свежие сендвичи и, конечно же, ароматные дымные кальяны от мастеров своего дела.</p>
+        </div>
+
+       <iframe src='/inwidget/index.php?adaptive=true' data-inwidget scrolling='no' frameborder='no' style='border:none;width:100%;height:315px;overflow:hidden;'></iframe>
+       
+        <div class="grid">
+            <p>Стильная кальянная-лаунж на Новослободской улице для ценителей хороших табаков и тихой атмосферы. Для вас обширная чайная карта, лимонады со свежими фруктами, свежие сендвичи и, конечно же, ароматные дымные кальяны от мастеров своего дела.</p>
+            <img src="img/o-nas-1.jpg" alt="img">
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2243.3027342728356!2d37.59130931621829!3d55.787980980562764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bf9a25dcdaf%3A0x8eb255f479747f4a!2sSMOLAND+Hookah+Lounge!5e0!3m2!1sru!2sru!4v1541502232861" style="margin:15px 0 15px;"width="100%" height="600px" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <div id="contact" style="display: none;">
+       <h2>Контакты</h2>
+            <p>Cамые дымные кальяны</p>
+            <p>Басплатная парковка</p>
+            <p>Настольные игры</p>
+            <p>Play Station / X-box</p>
+            <p>Телефон: <a href="tel:+74999723442">+7&nbsp;(499)&nbsp;972-34-42</a></p>
+            <p>м.Новослободская/менделеевская ул.54 с.1</p>
+            <p>Будни с 13:00 до 00:00,<wbr>пт сб с 13:00 до 04:00</p>
+            <a href="https://vk.com/smoland_lounge" target="_blank"><i class="fab fa-vk"></i></a>
+            <a href="https://www.instagram.com/smoland_lounge/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/smolandlounge/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    </div>
+    
+    <footer>
+        <address>ул.&nbsp;Новослободская 54 с.1<i class="far fa-map" title="открыть карту" onclick="mapOpenFunc()"></i></address>
+        <span>Будни&nbsp;с&nbsp;13:00&nbsp;до&nbsp;00:00,&nbsp;<wbr>пт&#47;сб&nbsp;с&nbsp;13:00&nbsp;до&nbsp;04:00</span>
+        <div><a href="tel:+74999723442">+7&nbsp;(499)&nbsp;972-34-42</a></div>
+        <div class="social">
+            <a href="https://vk.com/smoland_lounge" target="_blank"><i class="fab fa-vk"></i></a>
+            <a href="https://www.instagram.com/smoland_lounge/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/smolandlounge/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    </footer>  
+    
+</div>
+<script>
+var map = document.getElementById('map');    
+function mapOpenFunc(){
+    if (map.style.display !== 'none'){
+        map.style.display = 'none';
+    } 
+    else if (menu.style.display !== 'none'){
+        menu.style.display = 'none';
+        map.style.display = 'block';
+    }
+    else if (hookah.style.display !== 'none'){
+        hookah.style.display = 'none';
+        map.style.display = 'block';
+    }
+    else if (gallery.style.display !== 'none'){
+        gallery.style.display = 'none';
+        map.style.display = 'block';
+    }
+    else if (oNas.style.display !== 'none'){
+        oNas.style.display = 'none';
+        map.style.display = 'block';
+    }
+    else if (contact.style.display !== 'none'){
+        contact.style.display = 'none';
+        map.style.display = 'block';
+    }else {
+        map.style.display = 'block';
+    }
+}
+
+var menu = document.getElementById('menu');    
+function menuOpenFunc(){
+    if (menu.style.display !== 'none'){
+        menu.style.display = 'none';
+    }
+    else if (map.style.display !== 'none'){
+        map.style.display = 'none';
+        menu.style.display = 'block';
+    }
+    else if (hookah.style.display !== 'none'){
+        hookah.style.display = 'none';
+        menu.style.display = 'block';
+    }
+    else if (gallery.style.display !== 'none'){
+        gallery.style.display = 'none';
+        menu.style.display = 'block';
+    }
+    else if (oNas.style.display !== 'none'){
+        oNas.style.display = 'none';
+        menu.style.display = 'block';
+    }
+    else if (contact.style.display !== 'none'){
+        contact.style.display = 'none';
+        menu.style.display = 'block';
+    }else {
+        menu.style.display = 'block';
+    }
+}
+
+var hookah = document.getElementById('hookah');    
+function hookahOpenFunc(){
+    if (hookah.style.display !== 'none'){
+        hookah.style.display = 'none';
+    }
+    else if (map.style.display !== 'none'){
+        map.style.display = 'none';
+        hookah.style.display = 'block';
+    }
+    else if (menu.style.display !== 'none'){
+        menu.style.display = 'none';
+        hookah.style.display = 'block';
+    }
+    else if (gallery.style.display !== 'none'){
+        gallery.style.display = 'none';
+        hookah.style.display = 'block';
+    }
+    else if (oNas.style.display !== 'none'){
+        oNas.style.display = 'none';
+        hookah.style.display = 'block';
+    }
+    else if (contact.style.display !== 'none'){
+        contact.style.display = 'none';
+        hookah.style.display = 'block';
+    }else {
+        hookah.style.display = 'block';
+    }
+}
+
+var gallery = document.getElementById('gallery');    
+function galleryOpenFunc(){
+    if (gallery.style.display !== 'none'){
+        gallery.style.display = 'none';
+    }
+    else if (hookah.style.display !== 'none'){
+        hookah.style.display = 'none';
+        gallery.style.display = 'block';
+    }
+    else if (map.style.display !== 'none'){
+        map.style.display = 'none';
+        gallery.style.display = 'block';
+    }
+    else if (menu.style.display !== 'none'){
+        menu.style.display = 'none';
+        gallery.style.display = 'block';
+    }
+    else if (oNas.style.display !== 'none'){
+        oNas.style.display = 'none';
+        gallery.style.display = 'block';
+    }
+    else if (contact.style.display !== 'none'){
+        contact.style.display = 'none';
+        gallery.style.display = 'block';
+    }else {
+        gallery.style.display = 'block';
+    }
+}
+var oNas = document.getElementById('o-nas');    
+function oNasOpenFunc(){
+    if (oNas.style.display !== 'none'){
+        oNas.style.display = 'none';
+    }
+    else if (gallery.style.display !== 'none'){
+        gallery.style.display = 'none';
+        oNas.style.display = 'block';
+    }
+    else if (hookah.style.display !== 'none'){
+        hookah.style.display = 'none';
+        oNas.style.display = 'block';
+    }
+    else if (map.style.display !== 'none'){
+        map.style.display = 'none';
+        oNas.style.display = 'block';
+    }
+    else if (menu.style.display !== 'none'){
+        menu.style.display = 'none';
+        oNas.style.display = 'block';
+    }
+    else if (contact.style.display !== 'none'){
+        contact.style.display = 'none';
+        oNas.style.display = 'block';
+    }else {
+        oNas.style.display = 'block';
+    }
+}
+var contact = document.getElementById('contact');    
+function  contactOpenFunc(){
+    if (contact.style.display !== 'none'){
+        contact.style.display = 'none';
+    }
+    else if (gallery.style.display !== 'none'){
+        gallery.style.display = 'none';
+        contact.style.display = 'block';
+    }
+    else if (hookah.style.display !== 'none'){
+        hookah.style.display = 'none';
+        contact.style.display = 'block';
+    }
+    else if (map.style.display !== 'none'){
+        map.style.display = 'none';
+        contact.style.display = 'block';
+    }
+    else if (menu.style.display !== 'none'){
+        menu.style.display = 'none';
+        contact.style.display = 'block';
+    }
+    else if (oNas.style.display !== 'none'){
+        oNas.style.display = 'none';
+        contact.style.display = 'block';
+    }else {
+        contact.style.display = 'block';
+    }
+}
+
+    
+//slider
+    
+var slides = document.querySelectorAll('#slides .slide');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide,2500);
+ 
+function nextSlide() {
+    slides[currentSlide].className = 'slide';
+    currentSlide = (currentSlide+1)%slides.length;
+    slides[currentSlide].className = 'slide showing';
+}
+
+
+
+$("header").append("<div class='smoland-window'></div>");
+//fill div with clone of real header
+$("h1.smoland").clone().appendTo(".smoland-window");
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

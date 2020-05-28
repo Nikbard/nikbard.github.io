@@ -1,0 +1,13 @@
+.header{
+
+}
+.header__list {
+    list-style: circle;
+}
+.header__link {
+    color: black;
+    text-decoration: none;
+}
+.header__link:hover{
+    color: purple;
+}

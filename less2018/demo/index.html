@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+	<title>Хочешь подтянутое тело?</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+<body>
+<div id="boxes">  
+    <div id="dialog" class="window">
+        <a href="#" class="link close">x</a>
+        <div class="top">
+            <h1 id="hOne">Что вам нравится?</h1>
+                <ul id="dot-main">
+                    <li class="active" id="li-1">1</li>
+                    <div class="dots dots-1">&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;</div>
+                    <li id="li-2">2</li>
+                    <div class="dots dots-2">&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;</div>
+                    <li id="li-3">3</li>
+                    <div class="dots dots-3">&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;</div>
+                    <li id="li-4">4</li>
+                </ul>
+        </div>
+    <form method="GET" id="ajax_form" action="">
+       <div class="row" id="form-1">
+            <div class="col-md-3">
+                <label>
+                    <input class="checkbox" type="checkbox" name="form-1">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">Фитнес</span>
+                </label>
+            </div>
+            <div class="col-md-3">
+                <label>
+                        <input class="checkbox" type="checkbox" name="form-1">
+                        <span class="checkbox-custom"></span>
+                        <span class="label">Танцы</span>
+                </label>
+            </div>
+            <div class="col-md-3">
+                <label>
+                        <input class="checkbox" type="checkbox" name="form-1">
+                        <span class="checkbox-custom"></span>
+                        <span class="label">BODY&MIND</span>
+                </label>
+            </div>
+            <div class="col-md-3">
+                <label>
+                        <input class="checkbox" type="checkbox" name="form-1">
+                        <span class="checkbox-custom"></span>
+                        <span class="label">Актерское мастерство</span>
+                </label>
+            </div>
+            <div class="col-md-3">
+                <label>
+                        <input class="checkbox" type="checkbox" name="form-1">
+                        <span class="checkbox-custom"></span>
+                        <span class="label">Вокал</span>
+                </label>
+            </div>
+            <div class="col-md-3">
+                <label>
+                        <input class="checkbox" type="checkbox" name="form-1">
+                        <span class="checkbox-custom"></span>
+                        <span class="label">Школа диджеев</span>
+                </label>
+            </div>
+            <div class="col-md-3">
+                <label>
+                    <input class="checkbox" type="checkbox" name="form-1">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">Воздушная гимнастика</span>
+                </label>
+            </div>
+            <div class="col-md-3">
+                <label>
+                    <input class="checkbox" type="checkbox" name="form-1">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">Криосауна</span>
+                </label>
+            </div>
+            <a href="#" id="button-1">Далее</a>
+        </div>
+        
+        <div class="row" id="form-2">
+            <div class="col-md-3">
+                <label>
+                    <input class="checkbox" type="radio" name="form-2">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">Новый гость</span>
+                </label>
+            </div>
+            <div class="col-md-3">
+                <label>
+                    <input class="checkbox" type="radio" name="form-2">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">Продление карты</span>
+                </label>
+            </div>
+            <a href="#" id="button-2">Далее</a>
+        </div>
+        
+        <div class="row" id="form-3">
+            <div class="col-md-3">
+                <label>
+                    <input class="checkbox" type="radio" name="form-3">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">Один/одна</span>
+                </label>
+            </div>
+            <div class="col-md-3">
+                <label>
+                    <input class="checkbox" type="radio" name="form-3">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">С парой/другом/подругой</span>
+                </label>
+            </div>
+            <div class="col-md-3">
+                <label>
+                    <input class="checkbox" type="radio" name="form-3">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">С семьей</span>
+                </label>
+            </div>
+            <div class="col-md-3">
+                <label>
+                    <input class="checkbox" type="radio" name="form-3">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">Хочу отдать ребенка</span>
+                </label>
+            </div>
+            <a href="#" id="button-3">Далее</a>
+        </div>
+        
+        <div class="row" id="form-4">
+            <div class="col-md-3">
+                <label>
+                    <input class="checkbox" type="radio" name="form-4">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">1 месяц</span>
+                </label>
+            </div>
+            <div class="col-md-3">
+                <label>
+                    <input class="checkbox" type="radio" name="form-4">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">3 месяца</span>
+                </label>
+            </div>
+            <div class="col-md-3">
+                <label>
+                    <input class="checkbox" type="radio" name="form-4">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">6 месяцев</span>
+                </label>
+            </div>
+            <div class="col-md-3">
+                <label>
+                    <input class="checkbox" type="radio" name="form-4">
+                    <span class="checkbox-custom"></span>
+                    <span class="label">12 месяцев</span>
+                </label>
+            </div>
+            <a href="#" id="button-4">Далее</a>
+        </div>
+        <div id="form-5">
+            <div>
+                <label>
+                    <input type="text" id="name" name="name" placeholder="Имя" required>
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="tel" id="tel" name="phonenumber" placeholder="Телефон" required>
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                </label>
+            </div>
+            <input id="btn" type="submit" name="form-1" value="Забронировать карту">
+        </div>        
+    </form> 
+    </div>
+</div>
+
+<div id="mask-2"></div>
+    <video id="video-bg" autoplay loop muted>
+        <source src="img/back.mp4" type="video/mp4">
+    </video>
+<div class="container">
+<header class="row">
+   <a href="#" class="col-md-3 logo"></a>
+   <div class="col-md-3 contact">
+       <p>+7 (495) 120-23-66<br>5 мин от м.Митино<br>Москва, ул.Барышиха, дом 14</p>
+   </div>   
+</header>
+<main class="row">
+    <div class="col-md-12">
+        <h1>Хочешь<br><span>подтянутое</span> тело?</h1>
+        <p>Ответь на все вопросы и пользуйся<br><strong>заслуженной скидкой!</strong></p>
+        <a href="#dialog" name="modal">Купить</a>
+    </div>
+</main>
+<footer>
+     <a href="#">Политика конфиденциальности</a>
+     <p>Разработано в<br><img src="img/logo2.png" alt="logo"></p>
+</footer>
+</div>
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function() {   
+    $('a[name=modal]').click(function(e) {
+    e.preventDefault();
+    var id = $(this).attr('href');
+    var maskHeight = $(document).height();
+    var maskWidth = $(window).width();
+    $('#mask-2').fadeIn(1000); 
+    $('#mask-2').fadeTo("slow",0.8); 
+    var winH = $(window).height();
+    var winW = $(window).width();
+    $(id).css('top',  winH/2-$(id).height()/2);
+    $(id).css('left', winW/2-$(id).width()/2);
+    $(id).fadeIn(2000); 
+    });
+    $('.window .close').click(function (e) { 
+    e.preventDefault();
+    $('#mask-2, .window').hide();
+    }); 
+    $('#mask-2').click(function () {
+    $(this).hide();
+    $('.window').hide();
+    }); 
+   });
+</script>
+
+<script>
+    $(function(){
+    $("#button-1").click(function(){
+      $("#form-1").fadeOut(1);
+      $("#form-2").css({display: 'flex'});
+      $("#hOne").html('Вы уже были у нас?');
+      $(".dots-1").css("color", "#d46e32");
+      $("#li-1").html('&#10004;');
+      $("#li-1").css("background-color", "#d46e32");
+      $("#li-1").css("color", "#fff");
+      $("#li-2").addClass('active');
+      });
+    $("#button-2").click(function(){
+      $("#form-2").fadeOut(1);
+      $("#form-3").css({display: 'flex'});
+      $("#hOne").html('С кем вы будете посещать фитнес клуб?');  
+      $("#hOne").css("font-size", "20px");
+      $(".dots-2").css("color", "#d46e32");
+      $("#li-2").html('&#10004;');
+      $("#li-2").css("background-color", "#d46e32");
+      $("#li-2").css("color", "#fff");
+      $("#li-3").addClass('active');
+      });
+    $("#button-3").click(function(){
+      $("#form-3").fadeOut(1);
+      $("#form-4").css({display: 'flex'});
+      $("#hOne").html('На какой срок интересует клубная карта?');
+      $("#hOne").css("font-size", "20px");
+      $(".dots-3").css("color", "#d46e32");
+      $("#li-3").html('&#10004;');
+      $("#li-3").css("background-color", "#d46e32");
+      $("#li-3").css("color", "#fff");
+      $("#li-4").addClass('active');
+      });
+    $("#button-4").click(function(){
+      $("#form-4").fadeOut(1);
+      $("#form-5").css({display: 'flex'});
+      $("#hOne").html('<b>Для получения</b><br>заполните данные ниже');
+      $("#hOne").css("font-size", "30px");
+      $("#hOne").css("line-height", "48px");
+      $(".top").css("height", "105px");
+      $("#dot-main").fadeOut(1);
+      });
+      });
+</script>
+
+<script>
+$( document ).ready(function() {
+    $("#btn").click(
+		function(){
+			sendAjaxForm('result_form', 'ajax_form', 'form.php');
+			return false; 
+		}
+	);
+});
+ 
+function sendAjaxForm(result_form, ajax_form, url) {
+    jQuery.ajax({
+        url:     "form.php", //url страницы (action_ajax_form.php)
+        type:     "POST", //метод отправки
+        dataType: "html", //формат данных
+        data: jQuery("#"+ajax_form).serialize(),  // Сеарилизуем объект
+        success: function(response) { //Данные отправлены успешно
+        	result = jQuery.parseJSON(response);
+        	$("#form-5").fadeOut(1);
+            $("#hOne").html('Данные успешно отправлены!');
+            $("#hOne").css("padding-top", "25px");
+            $("#hOne").css("margin-top", "155px");
+    	},
+    	error: function(response) { // Данные не отправлены
+            $("#hOne").html('Ошибка! Данные не отправлены.');
+            $("#hOne").css("padding-top", "25px");
+            $("#hOne").css("margin-top", "155px");
+    	}
+ 	});
+}
+</script>
+
+
+<div id="result_form"></div>
+</body>
+</html>
+
+
+
+
+
+
+<!-- https://itproger.com/course/bootstrap/2 -->
